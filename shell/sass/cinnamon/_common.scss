@@ -1278,10 +1278,10 @@ $icon_size: 16px;
     color: $secondary_fg_color;
 
     &-selected {
+      @extend %button:hover;
       padding: 7px;
       border: 1px solid transparent;
-      background-color: transparent;
-      color: $selected_bg_color;
+      color: $fg_color;
     }
 
     &-hover {
