@@ -1676,8 +1676,8 @@ $icon_size: 16px;
 .panel-launcher {
   border: 0 solid transparent;
 
-  @each $position, $_padding in (top, 0 4px 2px 4px),
-                                (bottom, 2px 4px 0 4px),
+  @each $position, $_padding in (top, 0 0 2px 0),
+                                (bottom, 2px 0 0 0),
                                 (left, 2px 2px 2px 0),
                                 (right, 2px 0 2px 2px) {
     .panel-#{$position} & {
@@ -1690,8 +1690,8 @@ $icon_size: 16px;
     border: 0 solid $osd_indicator_color;
     background-gradient-direction: none;
 
-    @each $position, $_padding in (top, 0 4px 2px 4px),
-                                  (bottom, 2px 4px 0 4px),
+    @each $position, $_padding in (top, 0 0 2px 0),
+                                  (bottom, 2px 0 0 0),
                                   (left, 2px 2px 2px 0),
                                   (right, 2px 0 2px 2px) {
       .panel-#{$position} & {
@@ -1704,8 +1704,7 @@ $icon_size: 16px;
 
 // 3.2.x
 .launcher {
-  padding: 2px;
-  spacing: 2px;
+  padding: 2px 0 2px 0;
   transition-duration: 0.2s;
   &:hover {
     border: 0 solid $osd_indicator_color;
