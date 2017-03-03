@@ -715,12 +715,12 @@ StScrollBar {
 }
 
 .popup-menu-boxpointer {
-  -arrow-border-radius: 2px; // FIXME: need more than 2px
+  -arrow-border-radius: 0; // FIXME: need more than 2px
   -arrow-background-color: $secondary_base_color; // fake arrows
   -arrow-border-width: 0;
   -arrow-border-color: transparent;
-  -arrow-base: 48px; // 'popup-menu-arrow' base * 3
-  -arrow-rise: 0;
+  -arrow-base: 24px; // 'popup-menu-arrow' base * 3
+  -arrow-rise: 11px;
   -arrow-box-shadow: $empty_shadow; // dreaming. bug #689995
   margin: 0.1em 0.3em 0.5em;
   border-radius: 2px;
