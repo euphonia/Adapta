@@ -25,9 +25,9 @@ PLACEHOLDER_COLOR: #607D8B;                     // Placeholder foreground color
 ACCENT_LABEL_COLOR: #8DCDC8;                    // Action-area foreground color
 2ND_ACCENT_LABEL_COLOR: #8DCDC8E5;              // Secondary action-area foreground color (90%)
 
-BG_COLOR: #3E515A;                              // Main background color
-BASE_COLOR: #455A64;                            // Entry/Notebook background color
-SECONDARY_BASE_COLOR: #42565F;                  // Popover/Menu background color
+BG_COLOR: #2F3D44;                              // Main background color
+BASE_COLOR: #37474F;                            // Entry/Notebook background color
+SECONDARY_BASE_COLOR: #33424A;                  // Popover/Menu background color
 SECONDARY_DARK_COLOR: #3B4C54;                  // Sidebar background color
 DARK_COLOR: #2A373E;                            // WindowFrame background color
 
@@ -60,7 +60,7 @@ SOLID_BLACK: #000000;
 TRANSPARENT: #00000000;
 SOLID_WHITE: #FFFFFF;
 
-SCROLLBAR_BG: #455A648C;                        // Trough color (55%)
+SCROLLBAR_BG: #37474F8C;                        // Trough color (55%)
 SCROLLBAR_SLIDER_BG: #ECEFF147;                 // Slider color (28%)
 SCROLLBAR_SLIDER_HOVER_BG: #ECEFF169;           // Hovered slider color (41%)
 

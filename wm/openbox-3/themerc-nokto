@@ -1,13 +1,13 @@
 # Menu
-menu.border.color: #455A64
+menu.border.color: #37474F
 
 menu.title.bg: flat solid
-menu.title.bg.color: #42565F
+menu.title.bg.color: #33424A
 menu.title.text.color: #C1C8CC
 menu.title.text.justify: center
 
 menu.items.bg: flat solid
-menu.items.bg.color: #42565F
+menu.items.bg.color: #33424A
 menu.items.text.color: #C1C8CC
 menu.items.disabled.text.color: #74838A
 

@@ -39,10 +39,10 @@ $inverted_dim_fg_color: shellopacity($inverted_fg_color, 0.4);
 // Background colors
 //
 
-$bg_color: if($nokto == 'false', #FAFBFC, #3E515A);
-$base_color: if($nokto == 'false', #FFFFFF, #445A64);
-$secondary_base_color: if($nokto == 'false', #FDFDFE, #42565F);
-$secondary_dark_color: if($nokto == 'false', #ECEFF1, #37474F);
+$bg_color: if($nokto == 'false', #FAFBFC, #2F3D44);
+$base_color: if($nokto == 'false', #FFFFFF, #37474F);
+$secondary_base_color: if($nokto == 'false', #FDFDFE, #33424A);
+$secondary_dark_color: if($nokto == 'false', #ECEFF1, #263238);
 
 $fill_color: shellopacity($fg_color, 0.15);
 $semi_fill_color: shellopacity($fg_color, 0.07);
@@ -62,8 +62,8 @@ $insensitive_fill_color: shellopacity($fill_color, 0.4);
 // Inverted background colors
 //
 
-$inverted_bg_color: if($nokto == 'false', #3E515A, #FAFBFC);
-$inverted_base_color: #455A64;
+$inverted_bg_color: if($nokto == 'false', #2F3D44, #FAFBFC);
+$inverted_base_color: #37474F;
 $inverted_dim_bg_color: shellopacity($inverted_bg_color, 0.2);
 
 
