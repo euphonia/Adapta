@@ -15,24 +15,24 @@
 // Foreground colors
 //
 
-$fg_color: if($nokto == 'false', #263238, #ECEFF1);
-$secondary_fg_color: shellopacity($fg_color, 0.75);
+$fg_color: if($nokto == 'false', #263238, #CFD8DC);
+$secondary_fg_color: shellopacity($fg_color, 0.8);
 
-$dim_fg_color: shellopacity($fg_color, 0.4);
+$dim_fg_color: shellopacity($fg_color, 0.5);
 
 $selected_fg_color: #FFFFFF;
 
-$insensitive_fg_color: shellopacity($fg_color, 0.4);
-$insensitive_secondary_fg_color: shellopacity($secondary_fg_color, 0.4);
+$insensitive_fg_color: shellopacity($fg_color, 0.5);
+$insensitive_secondary_fg_color: shellopacity($secondary_fg_color, 0.5);
 
 
 //
 // Inverted foreground colors
 //
 
-$inverted_fg_color: if($nokto == 'false', #ECEFF1, #263238);
-$inverted_secondary_fg_color: shellopacity($inverted_fg_color, 0.75);
-$inverted_dim_fg_color: shellopacity($inverted_fg_color, 0.4);
+$inverted_fg_color: if($nokto == 'false', #CFD8DC, #263238);
+$inverted_secondary_fg_color: shellopacity($inverted_fg_color, 0.8);
+$inverted_dim_fg_color: shellopacity($inverted_fg_color, 0.5);
 
 
 //
@@ -42,7 +42,7 @@ $inverted_dim_fg_color: shellopacity($inverted_fg_color, 0.4);
 $bg_color: if($nokto == 'false', #FAFBFC, #2F3D44);
 $base_color: if($nokto == 'false', #FFFFFF, #37474F);
 $secondary_base_color: if($nokto == 'false', #FDFDFE, #33424A);
-$secondary_dark_color: if($nokto == 'false', #ECEFF1, #263238);
+$secondary_dark_color: if($nokto == 'false', #CFD8DC, #263238);
 
 $fill_color: shellopacity($fg_color, 0.15);
 $semi_fill_color: shellopacity($fg_color, 0.07);
@@ -55,7 +55,7 @@ $panel_fill_color: rgba(19, 25, 28, 1.0);
 $selected_bg_color: $key_selection_color;
 
 $insensitive_bg_color: mix($bg_color, $base_color, 60%);
-$insensitive_fill_color: shellopacity($fill_color, 0.4);
+$insensitive_fill_color: shellopacity($fill_color, 0.5);
 
 
 //
@@ -64,7 +64,7 @@ $insensitive_fill_color: shellopacity($fill_color, 0.4);
 
 $inverted_bg_color: if($nokto == 'false', #2F3D44, #FAFBFC);
 $inverted_base_color: #37474F;
-$inverted_dim_bg_color: shellopacity($inverted_bg_color, 0.2);
+$inverted_dim_bg_color: shellopacity($inverted_bg_color, 0.3);
 
 
 //
@@ -80,7 +80,7 @@ $secondary_accent_label_color: shellopacity($accent_label_color, 0.8);
 $insensitive_accent_label_color: shellopacity($accent_label_color, 0.4);
 
 $accent_fill_color: shellopacity($accent_color, 0.1);
-$accent_active_fill_color: shellopacity($accent_color, 0.25);
+$accent_active_fill_color: shellopacity($accent_color, 0.35);
 
 $inverted_accent_label_color: if($nokto == 'false',
                               mix($key_accent_color, $inverted_fg_color, 60%),
@@ -114,13 +114,13 @@ $suggested_color: $key_suggestion_color;
 // OSD Foreground colors
 //
 
-$osd_fg_color: if($nokto == 'false', $inverted_fg_color, $fg_color);
-$osd_secondary_fg_color: shellopacity($osd_fg_color, 0.75);
+$osd_fg_color: #ECEFF1;
+$osd_secondary_fg_color: shellopacity($osd_fg_color, 0.85);
 
-$osd_dim_fg_color: shellopacity($osd_fg_color, 0.5);
+$osd_dim_fg_color: shellopacity($osd_fg_color, 0.6);
 
-$insensitive_osd_fg_color: shellopacity($osd_fg_color, 0.4);
-$insensitive_osd_secondary_fg_color: shellopacity($osd_secondary_fg_color, 0.4);
+$insensitive_osd_fg_color: shellopacity($osd_fg_color, 0.5);
+$insensitive_osd_secondary_fg_color: shellopacity($osd_secondary_fg_color, 0.5);
 
 
 //
@@ -130,9 +130,9 @@ $insensitive_osd_secondary_fg_color: shellopacity($osd_secondary_fg_color, 0.4);
 $osd_bg_color: mix(#263238, #37474F, 75%);
 $osd_base_color: if($nokto == 'false', $inverted_base_color, $bg_color);
 
-$osd_fill_color: shellopacity($osd_fg_color, 0.4);
-$osd_semi_fill_color: shellopacity($osd_fg_color, 0.2);
-$osd_slight_fill_color: shellopacity($osd_fg_color, 0.12);
+$osd_fill_color: shellopacity($osd_fg_color, 0.5);
+$osd_semi_fill_color: shellopacity($osd_fg_color, 0.3);
+$osd_slight_fill_color: shellopacity($osd_fg_color, 0.23);
 
 $osd_indicator_color: $selected_bg_color;
 
@@ -140,5 +140,5 @@ $osd_borders_color: $borders_color;
 $osd_outer_borders_color: transparent;
 $tooltip_borders_color: $osd_borders_color;
 
-$insensitive_osd_fill_color: shellopacity($osd_fill_color, 0.4);
+$insensitive_osd_fill_color: shellopacity($osd_fill_color, 0.5);
 
