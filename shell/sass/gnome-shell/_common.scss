@@ -723,9 +723,9 @@ StScrollBar {
   -arrow-rise: 11px;
   -arrow-box-shadow: $empty_shadow; // dreaming. bug #689995
   margin: 0.1em 0.3em 0.5em;
-  border-radius: 2px;
-  border-top: 1px solid $menu_highlight;
-  background-color: $secondary_base_color;
+  // border-radius: 2px;
+  // border-top: 1px solid $menu_highlight;
+  // background-color: $secondary_base_color;
   box-shadow: $z-depth-3;
 }
 
