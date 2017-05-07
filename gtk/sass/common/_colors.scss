@@ -29,7 +29,7 @@
 //
 
 $fg_color: if($variant == 'light', #263238,                     // = BluGry900
-                                   #CFD8DC);                    // = BluGry100
+                                   mix(#CFD8DC, #B0BEC5, 75%)); // = 100 _ 200
 $secondary_fg_color: gtkopacity($fg_color, 0.75);
 $tertiary_fg_color: gtkopacity($fg_color, 0.5);
 
