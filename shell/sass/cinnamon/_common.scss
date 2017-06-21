@@ -474,8 +474,8 @@ $icon_size: 16px;
 
     &:dnd {
       background-gradient-direction: vertical;
-      background-gradient-start: shellopacity($success_color, 0.4);
-      background-gradient-end: shellopacity($success_color, 0.4);
+      background-gradient-start: shellopacity($accent_color, 0.4);
+      background-gradient-end: shellopacity($accent_color, 0.4);
     }
 
     &.vertical {
@@ -1367,12 +1367,12 @@ $icon_size: 16px;
     padding: 0;
     border-radius: 0;
     background-color: $osd_semi_fill_color;
-    color: $success_color;
+    color: $accent_color;
   }
 
   .level-bar {
     border-radius: 0;
-    background-color: $success_color;
+    background-color: $accent_color;
   }
 }
 
