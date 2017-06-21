@@ -262,7 +262,7 @@ StScrollBar {
 .cinnamon-link {
   border-radius: 2px;
   color: $link_color;
-  text-decoration: underline;
+  text-decoration: none;
   &:hover {
     color: $link_color;
     background-color: shellopacity($link_color, 0.1);
@@ -792,7 +792,7 @@ $icon_size: 16px;
     background-image: none;
     color: $link_color;
     font-weight: 400;
-    text-decoration: underline;
+    text-decoration: none;
   }
 }
 
