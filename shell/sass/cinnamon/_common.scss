@@ -1812,13 +1812,12 @@ $icon_size: 16px;
     }
     &:highlight { background-color: $accent_active_fill_color; }
 
-    @each $position, $_padding, $_indicator in (top, 0 6px, 0 2px),
-                                               (bottom, 0 6px, 0 -2px),
+    @each $position, $_padding, $_indicator in (top, 0 3px, 0 2px),
+                                               (bottom, 0 3px, 0 -2px),
                                                (left, 2px 0, 2px 0),
                                                (right, 2px 0, -2px 0) {
       .panel-#{$position} & {
         padding: #{$_padding};
-        spacing: 2px;
         &:hover,
         &:checked {
           box-shadow: inset #{$_indicator} 0 $osd_indicator_color;
