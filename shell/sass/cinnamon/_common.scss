@@ -308,14 +308,14 @@ StScrollBar {
   min-width: 0;
   padding: 0;
   border-width: 3px; // same value as padding embedded in the pixmaps
-  border-image: url("assets/menu/menu.svg") 9 9 9 9;
+  // border-image: url("assets/menu/menu.svg") 9 9 9 9;
   color: $secondary_fg_color;
 
   &-arrow { icon-size: 16px; }
 
   .popup-sub-menu {
     min-width: 0;
-    border-image: url("assets/menu/submenu.svg") 9 9 0 0;
+    // border-image: url("assets/menu/submenu.svg") 9 9 0 0;
     background-gradient-direction: none;
     box-shadow: $empty_shadow;
 
@@ -362,12 +362,12 @@ StScrollBar {
 
 .popup {
   &-menu-boxpointer {
-    -arrow-border-radius: 0;
-    -arrow-background-color: transparent;
-    -arrow-border-width: 0;
-    -arrow-border-color: transparent;
-    -arrow-base: 0;
-    -arrow-rise: 0;
+    -arrow-border-radius: 3px;
+    -arrow-background-color: $bg_color;
+    -arrow-border-width: 1px;
+    -arrow-border-color: $bg_color;
+    -arrow-base: 21px;
+    -arrow-rise: 9px;
     -arrow-box-shadow: $empty_shadow; // dreaming. bug #689995
     margin: 0.4em 0.5em 0.5em;
     border-radius: 2px;
