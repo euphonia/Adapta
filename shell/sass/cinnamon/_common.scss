@@ -1998,8 +1998,8 @@ $icon_size: 16px;
 .expo-workspaces-name-entry {
   @include fontscaling($ref_size * 0.9);
   -cinnamon-caption-spacing: 12px;
-  min-height: 1.2em;
-  padding: 4px 8px;
+  height: 1.2em;
+  padding: 0px 8px 4px 8px;
   border-radius: 0;
   color: $osd_dim_fg_color;
   background-color: $hidden_fill_color;
