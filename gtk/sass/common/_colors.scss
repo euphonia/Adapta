@@ -30,10 +30,10 @@
 
 $fg_color: if($variant == 'light', #263238,                     // = BluGry900
                                    #CFD8DC);                    // = BluGry100
-$secondary_fg_color: gtkopacity($fg_color, 0.75);
-$tertiary_fg_color: gtkopacity($fg_color, 0.5);
+$secondary_fg_color: gtkopacity($fg_color, 0.85);
+$tertiary_fg_color: gtkopacity($fg_color, 0.6);
 
-$selected_fg_color: #FFFFFF;                                    // = White
+$selected_fg_color: #ECEFF1;                                    // = BluGry50
 $secondary_selected_fg_color: gtkopacity($selected_fg_color, 0.85);
 $tertiary_selected_fg_color: gtkopacity($selected_fg_color, 0.7);
 
@@ -54,8 +54,8 @@ $placeholder_text_color: #78909C;                               // = BluGry400
 //
 
 $inverted_fg_color: #CFD8DC;                                    // = BluGry100
-$inverted_secondary_fg_color: gtkopacity($inverted_fg_color, 0.75);
-$inverted_tertiary_fg_color: gtkopacity($inverted_fg_color, 0.5);
+$inverted_secondary_fg_color: gtkopacity($inverted_fg_color, 0.85);
+$inverted_tertiary_fg_color: gtkopacity($inverted_fg_color, 0.6);
 
 $insensitive_inverted_fg_color: gtkopacity($inverted_fg_color, 0.3);
 $insensitive_inverted_secondary_fg_color: gtkopacity($inverted_secondary_fg_color, 0.3);
